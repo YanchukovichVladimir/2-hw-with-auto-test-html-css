@@ -33,7 +33,7 @@ header span {
 .main-title {
   font-weight: 700;
   font-size: 48px;
-  padding: 20px 0px;
+  padding: 20px;
   /* Стили для заголовка в первой секции */
 }
 
@@ -51,7 +51,7 @@ header span {
 
 .about-section {
   background-color: #fafaff;
-  padding: 100px 0px 60px ;
+  padding: 100px 0px;
   /* Стили для второй секции */
 }
 
@@ -87,14 +87,14 @@ padding-bottom: 8px;
   font-weight: 400;
   font-size: 16px;
   list-style-image: url(./image/Vector-1.png);
-  padding-left: 20px;
+  padding-left: 0px 20px;
   /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
   font-weight: 400;
   font-size: 16px;
-  padding-left: 20px;
+  padding-left: 0px 20px;
   /* Стили для нумерованного списка во второй секции */
 }
 
@@ -111,6 +111,8 @@ padding-bottom: 8px;
   height: 36px;
   font-weight: 400;
   font-size: 16px;
+  padding-left: 12px;
+
   /* Стили для односточного поля ввода текста */
 }
 
@@ -172,16 +174,13 @@ tr {
 td {
   font-weight: 400;
   font-size: 14px;
-  padding-left: 15px;
-  padding-top: 11px;
-  padding-bottom: 12px;
+  padding: 12px 15px;
 }
 
 footer {
   /* Стили для футера */
   background: rgba(163, 167, 255, 0.3);
-  padding-top: 26px ;
-  padding-bottom: 27px;
+  padding: 26px 0px;
 }
 
 .footer-link {
