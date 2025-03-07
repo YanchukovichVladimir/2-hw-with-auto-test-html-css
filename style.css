@@ -33,7 +33,7 @@ header span {
 .main-title {
   font-weight: 700;
   font-size: 48px;
-  padding: 20px;
+  padding-bottom: 20px;
   /* Стили для заголовка в первой секции */
 }
 
@@ -87,14 +87,14 @@ padding-bottom: 8px;
   font-weight: 400;
   font-size: 16px;
   list-style-image: url(./image/Vector-1.png);
-  padding-left: 0px 20px;
+  padding: 0px 20px;
   /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
   font-weight: 400;
   font-size: 16px;
-  padding-left: 0px 20px;
+  padding: 0px 20px;
   /* Стили для нумерованного списка во второй секции */
 }
 
@@ -137,15 +137,15 @@ padding-bottom: 8px;
 
 table {
   border-collapse: collapse;
+  font-size: 14px;
   border: 1px solid #95a1bb;
   /* Стили для таблицы */
 }
 
 .tt-1 {
   /* Стили для ячеек таблицы */
-  text-align: center;
+  padding: 12px 15px;
   font-weight: 700;
-  font-size: 14px;
   width: 55px;
   height: 40px;
 }
@@ -153,17 +153,15 @@ table {
 .tt-2 {
   width: 134px;
   height: 40px;
-  text-align: center;
+  padding: 12px 15px;
   font-weight: 700;
-  font-size: 14px;
 }
 
 .tt-3 {
   font-weight: 700;
-  font-size: 14px;
-  text-align: center;
   width: 113px;
   height: 40px;
+  padding: 12px 15px;
 }
 
 tr {
@@ -173,7 +171,6 @@ tr {
 
 td {
   font-weight: 400;
-  font-size: 14px;
   padding: 12px 15px;
 }
 
